@@ -27,14 +27,13 @@ pacman::p_load(tidyverse,
 ```
 
 ```{r}
-viviendas<-read.csv("viviendas.csv")
+viviendas <-read.csv("viviendas.csv")
+población <-read.csv("poblacion.csv")
 ```
 \newpage
 ```{r}
 # selección de las variables de interés
-Conc <- Conc [ c("folioviv", "foliohog", "ing_cor", "ingtrab", "trabajo", "negocio", "otros_trab", "rentas", "utilidad",
-"arrenda", "transfer", "jubilacion", "becas", "donativos", "remesas", "bene_gob", "transf_hog", "trans_inst",
-"estim_alqu", "otros_ing","factor","upm","est_dis")]
+Conc <- Conc [ c("folioviv", "foliohog", "mat_pared", "mat_techos", "mat_pisos", "renta","estim_pago", "tipo_adqui", "tipo_finan", "ubica_geo", "tam_loc", "factor","upm","est_dis")]
 ```
 
 
