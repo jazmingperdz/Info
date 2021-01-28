@@ -1,0 +1,33 @@
+---
+title: "Infonavit"
+author: "Jazmín Guadalupe Rodríguez Calderón"
+date: "27/1/2021"
+output:
+  pdf_document:
+  toc: TRUE 
+toc-title: Contenido 
+csl: apa.csl
+bibliography: fuentes.bib 
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE, message = F, marning=F, fig.align='right')
+```
+
+```{r}
+rm(list = ls())
+
+install.packages("pacman")
+pacman::p_load(tidyverse,
+               foreing,
+               kableExtra,
+               ggplot2,
+               cowplot)
+
+```
+
+```{r}
+setwd(C:/Users/Jazmin Rodriguez/OneDrive/INFONAVIT)
+viviendas<-read.csv()
+```
+\newpage
