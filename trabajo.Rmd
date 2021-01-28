@@ -31,3 +31,6 @@ setwd(C:/Users/Jazmin Rodriguez/OneDrive/INFONAVIT)
 viviendas<-read.csv()
 ```
 \newpage
+```{r}
+##Prueba
+```
