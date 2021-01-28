@@ -33,4 +33,5 @@ viviendas<-read.csv()
 \newpage
 ```{r}
 ##Prueba
+##Prueba 2
 ```
