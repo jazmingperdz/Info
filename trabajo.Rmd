@@ -27,7 +27,16 @@ pacman::p_load(tidyverse,
 ```
 
 ```{r}
-setwd(C:/Users/Jazmin Rodriguez/OneDrive/INFONAVIT)
+setwd(C:/Users/Jazmin Rodriguez/INFONAVIT)
 viviendas<-read.csv()
 ```
 \newpage
+```{r}
+Entidades<-c("Estados Unidos Mexicanos", "Aguascalientes", "Baja California", "Baja California Sur",
+ "Campeche", "Coahuila de Zaragoza", "Colima", "Chiapas", "Chihuahua", "México", "Durango",
+ "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Estado de México", "Michoacán de Ocampo",
+ "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", "San Luis Potosí",
+ "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz de Ignacio de la Llave", "Yucatán",
+ "Zacatecas")
+```
+
