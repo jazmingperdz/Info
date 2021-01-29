@@ -27,10 +27,22 @@ pacman::p_load(tidyverse,
 ```
 
 ```{r}
-setwd(C:/Users/Jazmin Rodriguez/OneDrive/INFONAVIT)
-viviendas<-read.csv()
+viviendas <-read.csv("viviendas.csv")
+población <-read.csv("poblacion.csv")
 ```
 \newpage
 ```{r}
-
+# selección de las variables de interés
+Conc <- Conc [ c("folioviv", "foliohog", "mat_pared", "mat_techos", "mat_pisos", "renta","estim_pago", "tipo_adqui", "tipo_finan", "ubica_geo", "tam_loc", "factor","upm","est_dis")]
 ```
+
+
+```{r}
+Entidades<-c("Estados Unidos Mexicanos", "Aguascalientes", "Baja California", "Baja California Sur",
+ "Campeche", "Coahuila de Zaragoza", "Colima", "Chiapas", "Chihuahua", "México", "Durango",
+ "Guanajuato", "Guerrero", "Hidalgo", "Jalisco", "Estado de México", "Michoacán de Ocampo",
+ "Morelos", "Nayarit", "Nuevo León", "Oaxaca", "Puebla", "Querétaro", "Quintana Roo", "San Luis Potosí",
+ "Sinaloa", "Sonora", "Tabasco", "Tamaulipas", "Tlaxcala", "Veracruz de Ignacio de la Llave", "Yucatán",
+ "Zacatecas")
+```
+
