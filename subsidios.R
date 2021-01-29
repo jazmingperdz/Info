@@ -80,6 +80,3 @@ nombres <- c("Mínimo", "Mediana", "Moda", "Máximo")
 descr2 <- as.data.frame(rbind(nombres, estadis_descrip))
 
 write.csv2(descr2, file = "Subsidios.csv")
-ggplot(rsv, aes(Dates, SF110168))+ geom_line() +labs(x = "Meses", 
-                                                     y = "Reserves in U.S. Dollars", 
-                                                     title = "Bank of Mexico International Reserves")
