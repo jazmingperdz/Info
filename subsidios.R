@@ -80,3 +80,14 @@ nombres <- c("Mínimo", "Mediana", "Moda", "Máximo")
 descr2 <- as.data.frame(rbind(nombres, estadis_descrip))
 
 write.csv2(descr2, file = "Subsidios.csv")
+
+##GLOSARIO
+#Total nacional:Se consideran únicamente los subsidios dispersados a través de un crédito de vivienda del Infonavit. A precios corrientes.  Cifras preliminares.
+#Crédito Tradicional:Se consideran únicamente los subsidios dispersados a través de un crédito de vivienda del Infonavit. Para conocer todas las características de la adquisición del producto consulte la sección de Derechohabiente en el Portal Infonavit
+#Línea II vivienda nueva:Monto de subsidio del gobierno federal otorgado por la Comisión Nacional de Vivienda (Conavi), como complemento para créditos Línea II, destinados para la adquisición de vivienda nueva.
+#Línea II vivienda existente:Monto de subsidio del gobierno federal otorgado por la Comisión Nacional de Vivienda (Conavi), como complemento para créditos Línea II, destinados para la adquisición de vivienda existente.
+#Línea III construcción:Monto de subsidio del gobierno federal otorgado por la Comisión Nacional de Vivienda (Conavi), como complemento para créditos Línea III, destinados para la construcción de vivienda.
+#Vivienda Económica:La Vivienda Económica es aquella que, según su clasificación por precio, cuesta entre 118 UMAs (Unidades de Medida y Actualización) o menos. No se incluyen créditos del producto Mejoravit. La vivienda se clasifica en Veces Salario Mínimo para periodos anteriores a 2016. A precios corrientes. Cifras preliminares.
+#Vivienda Popular:La Vivienda Popular es aquella que, según su clasificación por precio, cuesta entre 118.1 y 200 UMAs (Unidades de Medida y Actualización). No se incluyen créditos del producto Mejoravit. La vivienda se clasifica en Veces Salario Mínimo para periodos anteriores a 2016. A precios corrientes. Cifras preliminares.
+#Vivienda Media:La Vivienda Media es aquella que, según su clasificación por precio, cuesta entre 350.1 y 750 UMAs (Unidades de Medida y Actualización). No se incluyen créditos del producto Mejoravit. La vivienda se clasifica en Veces Salario Mínimo para periodos anteriores a 2016. A precios corrientes. Cifras preliminares.
+#Vivienda Residencial:La Vivienda Residencial es aquella que, según su clasificación por precio, cuesta entre 750.1 y 1,500 UMAs (Unidades de Medida y Actualización). No se incluyen créditos del producto Mejoravit. La vivienda se clasifica en Veces Salario Mínimo para periodos anteriores a 2016. A precios corrientes. Cifras preliminares.
